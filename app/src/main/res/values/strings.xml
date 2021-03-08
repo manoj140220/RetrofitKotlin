@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">KotlinRetrofit</string>
+
+    <string name="API_END_POINT">https://newsapi.org/v2/</string>
+    <string name="HEADER_ONE_KEY">Accept</string>
+    <string name="HEADER_ONE_VALUE">application/json</string>
+    <string name="HEADER_TWO_KEY">Authorization</string>
+    <string name="HEADER_TWO_VALUE">Bearer <!--Add Your Token Key--></string>
+    <!-- use the link : https://newsapi.org/ to ket your token key -->
+
+    <string name="dummy_text">Testing text content.</string>
+    <string name="description_dummy_content">Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since
+        the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+        specimen book. It has survived not only five centuries, but also the leap into electronic
+        typesetting, remaining essentially unchanged.</string>
+    <string name="close">CLOSE</string>
+    <string name="article_link">View Article</string>
+
+</resources>
