@@ -15,7 +15,7 @@ import retrofit2.converter.gson.GsonConverterFactory
  * Author     : Manoj Basavaraja
  * Name       : Manoj DB
  */
-class RetrofitInit(context: Context) {
+class RetrofitInit(private val context: Context) {
 
     private var retrofit : Retrofit ?= null
 
@@ -32,8 +32,8 @@ class RetrofitInit(context: Context) {
         val httpClient : OkHttpClient.Builder = OkHttpClient.Builder()
         httpClient.addInterceptor(Interceptor { chain ->
             val request : Request = chain.request().newBuilder()
-                    .addHeader("Accept", "application/json")
-                    .addHeader("Authorization", "Bearer c4285fe8f70d4b16b140f850bd83771c")
+                    .addHeader(context.getString(R.string.HEADER_ONE_KEY), context.getString(R.string.HEADER_ONE_VALUE))
+                    .addHeader(context.getString(R.string.HEADER_TWO_KEY), context.getString(R.string.HEADER_TWO_VALUE))
                     .build()
             return@Interceptor chain.proceed(request)
         })
