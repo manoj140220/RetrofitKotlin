@@ -11,4 +11,5 @@ Features :
 3. Text spaning
 3. Alert dialog 
 
-![App Preview](https://drive.google.com/file/d/1JaBuQ7gDFi72qqSPfjvT2Bxb4NZaRB1d/view?usp=sharing)
+![app preview](https://github.com/[manoj140220]/[RetrofitKotlin]/Screenshot_20210308-143313.jpg?raw=true)
+
