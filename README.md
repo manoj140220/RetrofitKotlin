@@ -13,4 +13,4 @@ Features :
 
 ![app preview](https://github.com/[manoj140220]/[RetrofitKotlin]/Screenshot_20210308-143313.jpg?raw=true)
 
-![alt text](https://github.com/manoj140220/RetrofitKotlin/Screenshot_20210308.jpg?raw=true)
+![alt text](https://github.com/manoj140220/RetrofitKotlin/blob/master/Screenshot_20210308.jpg?raw=true)
